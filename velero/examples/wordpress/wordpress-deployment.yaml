@@ -13,7 +13,7 @@ spec:
   type: LoadBalancer
   # Optional:
   # loadBalancerIP: <YOUR_LOADBALANCER_IP-ForSameIP-AfterVeleroRestore>
-  loadBalancerIP: 10.193.152.70
+  loadBalancerIP: 10.193.226.71
 
 ---
 apiVersion: v1
