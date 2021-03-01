@@ -5,3 +5,9 @@ secretGenerator:
 resources:
 - mysql-deployment.yaml
 - wordpress-deployment.yaml
+images:
+- name: mysql
+  newName: 10.193.216.21/library/mysql
+- name: wordpress
+  newName: 10.193.216.21/library/wordpress
+
